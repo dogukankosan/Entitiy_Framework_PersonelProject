@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="denemeModelStoreContainer" CdmEntityContainer="denemeEntities">
+    <EntitySetMapping Name="tbl_User">
+      <EntityTypeMapping TypeName="denemeModel.tbl_User">
+        <MappingFragment StoreEntitySet="tbl_User">
+          <ScalarProperty Name="E_MAIL" ColumnName="E_MAIL" />
+          <ScalarProperty Name="ADRESS" ColumnName="ADRESS" />
+          <ScalarProperty Name="PHONE" ColumnName="PHONE" />
+          <ScalarProperty Name="NAME_SURNAME" ColumnName="NAME_SURNAME" />
+          <ScalarProperty Name="TC" ColumnName="TC" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
